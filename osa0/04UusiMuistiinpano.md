@@ -1,5 +1,4 @@
-```
-sequenceDiagram
+```sequenceDiagram
     participant browser
     participant server
     
@@ -30,5 +29,7 @@ sequenceDiagram
     activate server
     server-->>browser: [{ content: "tehht", date: "2026-10-24T13:33:19.431Z" }, ...]
     deactivate server
-
 ```
+
+Varmuudeksi kuva lopputuloksesta:
+![Kuva tehtävän 0.4 sekvenssikaaviosta](04UM.png)
